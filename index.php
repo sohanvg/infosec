@@ -1,5 +1,5 @@
 <?php  
- $connect = mysqli_connect("localhost", "root", "sohan", "testing");  
+ $connect = mysqli_connect("ec2-54-243-43-72.compute-1.amazonaws.com", "odsenqvxrgejyx", "dee9scrcd5udel", "9d67767d9bcc65decd62cb7f7ce32a407dd116245cc6a374e3717d5380738cd7");  
  session_start();  
  if(isset($_SESSION["username"]))  
  {  
